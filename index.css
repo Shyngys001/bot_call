@@ -516,7 +516,7 @@ section, #first, #header {
     width: 100%;
     background: #1f1f1f;
     position: relative;
-    margin-top: 250px;
+    margin-top: 50px;
     height: 20vh;
   }
   
@@ -967,9 +967,4 @@ section, #first, #header {
         margin: 0 auto;
 
     }
-
-
-    
-    
-
 }
