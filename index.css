@@ -175,6 +175,9 @@ section {
     transform: scaleX(1);
 }
 
+#num {
+    color: var(--black);
+}
 
 #num::after {
     content: '';
@@ -422,7 +425,7 @@ section, #first, #header {
     display:flex;
     margin-top: 20px;
     border-radius: 15px;
-    border: solid 1px #1f1f1f;
+    border: solid 1px var(--yellow);
     height: 30px;
     align-items: center;
     cursor: pointer;
@@ -432,6 +435,13 @@ section, #first, #header {
 .sub_resheniya {
     margin-top: 5px;
 }
+
+
+.sub_services p,
+.sub_resheniya p{
+    width: 30%;
+}
+
 .sub_services, .sub_resheniya {
     display: flex;
     flex-direction: column;
